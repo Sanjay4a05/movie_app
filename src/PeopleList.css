@@ -1,0 +1,32 @@
+.people-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.person-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.person-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.person-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.person-card p {
+    font-size: 14px;
+    color: #666;
+}

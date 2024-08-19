@@ -1,0 +1,39 @@
+.nav {
+    position: absolute; 
+    top: 1rem; 
+    right: 1rem; 
+    display: flex;
+    justify-content: flex-end; 
+    gap: 1rem; 
+}
+
+.nav-button {
+    padding: 0.5rem 1rem; 
+    border: 1px solid #f9d3b4; 
+    border-radius: 4px; 
+    background-color: transparent; 
+    color: #f9d3b4; 
+    text-decoration: none; 
+    font-family: var(--font-raleway);
+    font-weight: 500;
+    display: inline-block; 
+    text-align: center; 
+    font-size: 15px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-button:hover {
+    background-color: #f9d3b4; 
+    color: #212426; 
+}
+
+.user-name {
+    padding: 0.5rem 1rem;
+    color: #f9d3b4;
+    font-family: var(--font-raleway);
+    font-weight: 500;
+}
+.nav-buttons {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+}
